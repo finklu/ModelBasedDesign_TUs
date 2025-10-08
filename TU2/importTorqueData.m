@@ -1,5 +1,5 @@
 
-function addedData = importTorqueData(filename, data)
+function dataTable = importTorqueData(filename, data)
     torqueData = load(filename);
     torqueSample = torqueData.Torque_values.Data;
     SamplingTime = torqueData.Torque_values.Time;
@@ -7,7 +7,7 @@ function addedData = importTorqueData(filename, data)
    
     torqueSample = reshape(torqueSample, [], 1);
 
-    addedData = [table(SamplingTime), data, table(torqueSample, 'VariableNames', {'Torque[Nm]'})];
-    addedData.Properties.VariableNames(1) = "sampling_time[s]";
+    dataTable = [table(SamplingTime), data, table(torqueSample, 'VariableNames', {'Torque[Nm]'})];
+    dataTable.Properties.VariableNames(1) = "sampling_time[s]";
 
 end
