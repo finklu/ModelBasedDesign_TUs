@@ -1,4 +1,4 @@
-function nthFiboNum = Fibonacci(n)
+function nthFiboNum = fibonacciCalculation(n)
     arguments
         n (1,1) {mustBeNumeric, mustBeNonnegative, mustBeInteger}
     end
@@ -11,5 +11,5 @@ function nthFiboNum = Fibonacci(n)
         return;
     end
 
-    nthFiboNum = Fibonacci(n-1) + Fibonacci(n-2);
+    nthFiboNum = fibonacciCalculation(n-1) + fibonacciCalculation(n-2);
 end
