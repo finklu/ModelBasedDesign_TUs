@@ -1,4 +1,4 @@
-function nthFiboNum = Fibonacci(n)
+function nthFiboNum = fibonacciCalculation(n)
     arguments
         n (1,1) {mustBeNumeric, mustBeNonnegative, mustBeInteger}
     end
