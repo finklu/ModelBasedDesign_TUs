@@ -11,5 +11,5 @@ function nthFiboNum = fibonacciCalculation(n)
         return;
     end
 
-    nthFiboNum = Fibonacci(n-1) + Fibonacci(n-2);
+    nthFiboNum = fibonacciCalculation(n-1) + fibonacciCalculation(n-2);
 end
