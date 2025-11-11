@@ -1,25 +1,30 @@
-# ModelBasedDesign_TUs
+# 💻 Model-Based Design (MBD)
 
-# 🚗 Training Unit 2: NEDC Simulation
+A course in **ELEKTRONIK UND COMPUTER ENGINEERING** | **WS 2025**
 
-## 🔍 Introduction
-This exercise continues from **Training Unit 1** and builds upon your MATLAB knowledge.  
-You will learn how to **import, manipulate, and visualize data** in MATLAB using techniques introduced previously.
+---
 
-## 🧭 Preparation
-Before starting, make sure you have:
-- ✅ Completed the **MATLAB Onramp tutorial**  
-- ✅ Reviewed **Section 3 – Technical Background**
+## 🎯 Course Overview
 
-## ⚙️ Technical Background
-The exercise is based on data from an **electric vehicle (EV)** test bench driven over the **NEDC (New European Driving Cycle)**.  
-Your goal is to analyze **energy consumption** and **performance** by importing and processing real-world measurement data.
+This course provides an introduction to **Model-Based Design**, focusing on mathematically modeling physical systems and utilizing simulation tools for verification and code generation.
 
-## ⚡ Vehicle Efficiency Chain
-To estimate the EV’s energy demand, consider the system efficiencies:
-gy flows **back to the battery** (*recuperation*)
+## 🛠️ Main Topics & Tools
 
-Your implementation should identify both **energy demand** and **recuperation phases** in the data.
+The core of the course revolves around a complete MBD workflow:
 
-## 📊 Objective
-Import, process, and visualize the given datasets to evaluate the **energy consumption** and **efficiency behavior** of an electric vehicle during the NEDC drive cycle.
+* **Modelling:** Deriving mathematical models of physical systems using **differential equations** and **transfer functions**.
+* **Simulation & Implementation:** Simulating and analyzing the modeled systems using industry-standard tools:
+    * **Matlab & Simulink**
+    * **Simscape**
+    * **LTSpice**
+* **Verification & Code Generation:** Applying the **V-Model** development process (MIL, SIL, HIL) to verify simulation results and generate deployable code for targets like **Arduino**.
+* **Software Engineering:** Utilizing **state diagrams** for system logic and **version control (Git/GitHub)** for tracking changes.
+
+---
+
+## ✅ Course Assessment
+
+The final grade is based on a continuous assessment:
+
+* **40%** Training Unit Quizzes (focusing on theory).
+* **60%** Training Unit Reports (documenting practical steps and results).
