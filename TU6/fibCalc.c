@@ -51,5 +51,5 @@ int main(int argc, char **argv)
     /* Terminate the application */
     fibonacciCalculation_terminate();
 
-    return 0;
+    return result;
 }
