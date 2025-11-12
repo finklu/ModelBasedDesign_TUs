@@ -26,5 +26,12 @@ int main(int argc, char **argv)
     /* Terminate the application */
     fibonacciCalculation_terminate();
 
+    printf("\nBerechnung abgeschlossen. Druecken Sie eine Taste zum Beenden...\n");
+    
+    while (getchar() != '\n'); 
+    
+    // Wartet auf die nächste Eingabe (beliebige Taste)
+    getchar();
+
     return 0;
 }
